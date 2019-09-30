@@ -2,12 +2,25 @@
 
 <html>
     <head>
-      <title>Flask app</title>
-      <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> -->
+        <title>Edge Networking</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> -->
     </head>
     <body>
+        <div class="container">
+            <div style="background:#42adf5  !important; font-style: italic; color: white;" class="jumbotron">
+                <center>
+                    <h1>Lab2 Demo</h1>
+                </center>
+            </div>
+        </div>
         <center>
+            <h2>First Floor</h2>
             <img src="static/floor.gif" alt="">
+            <br>
+            <br>
+            <h4> Num of Mac Address: {{num}} </h4>
+            <h4> Air Quality Level: {{air}} </h4>
         </center>
     </body>
 </html>

@@ -1,2 +1,3 @@
 mac 34
-air 75
+air 11
+predict 101
